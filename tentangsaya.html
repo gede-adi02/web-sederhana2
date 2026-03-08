@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Mahasiswa</title>
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            /* background-color: #666666;
+            color: white;
+            text-align: center;
+            padding: 30px 0; */
+            background-color: #666666;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            color: white;
+        }
+
+        header h1 {
+            /* margin: 0;
+            font-size: 40px;
+            text-align: left;
+            margin-left: 70px; */
+            margin: 0;
+            font-family: sans-serif;
+            font-size: 40px;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+            background-color: #ffffff;
+            width: 100%;
+        }
+
+        .sidebar {
+            background-color: #cccccc;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .sidebar img {
+            width: 250px;
+            height: auto;
+        }
+
+        .content {
+            width: 70%;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .content h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+
+        .content p {
+            font-size: 18px;
+            margin: 5px 0;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #666666;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+        }
+
+        /* nav {
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: flex-end;
+        } */
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #beab56;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tentang Saya</h1>
+            <nav>
+                <ul>
+                    <li><a href="menuutama.html">Menu Utama</a></li>
+                    <li><a href="tentangsaya.html">Tentang Saya</a></li>
+                    <li><a href="kontaksaya.html">Kontak Saya</a></li>
+                    <li><a href="pendidikan.html">Pendidikan</a></li>
+                    <li><a href="skill.html">Skill</a></li>
+                    <li><a href="layout.html">Layout</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <img src="mahasiswa.jpg" alt="uhn_mahasiswa">
+        </div>
+        <div class="content">
+            <h2>Biodata Mahasiswa</h2>
+
+                    <p>Nama : Gede Adi</p>
+                    <p>NIM : 2413231001</p>
+                    <p>Prodi : Informatika</p>
+                    <p>Fakultas : Saintek (Sains dan Teknologi)</p>
+                    <p>Alamat : Jl. Pratu Made Rambug, Br. Menguntur</p>
+
+                        <p>Lokasi Alamat :</p>
+            
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.5841906314495!2d115.25848717374106!3d-8.634131187776978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23fed22f476dd%3A0xc402c6ca48b04733!2sBanjar%20Menguntur%20Batubulan!5e1!3m2!1sen!2sid!4v1771161667250!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <div style="margin-top: 5px;">
+                            <a href="https://maps.app.goo.gl/d4ojK2DpUxeBodhV9" target="_blank" style="color: #0066cc; text-decoration: none; font-size: 14px;">
+                                Buka di Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        Copyright by Gedesky. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
